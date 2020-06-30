@@ -5,7 +5,6 @@ and returns the reversed string, without any spaces or symbols that do not belon
 #include<iostream>
 
 
-
 using namespace std;
 
 
@@ -21,7 +20,9 @@ string clean(const std::string& text){
        if(new_text[i] == ' ' || new_text[i] == '-' || new_text[i] == '!' || new_text[i] == '?' || new_text[i] == '.' || new_text[i] == ',')
             new_text.erase(new_text.begin() + i);
     }
+    
 return new_text;
+    
 }
 
 void swap(char& a, char& b){
@@ -48,14 +49,13 @@ bool reverse(std::string& text){
     }
 
 
-//When new string is the same as the original, then return true
-bool flag = true;
-if (new_text != text){
+    //When new string is the same as the original, then return true
+    bool flag = true;
+    if (new_text != text)
+            flag = false;
 
-    flag = false;
 
-}
-return flag;
+    return flag;
 
 }
 
@@ -95,8 +95,6 @@ if (reverse(text))
 else{
     cout<<"No.";
 }
-
-
 
 
 return 0;
