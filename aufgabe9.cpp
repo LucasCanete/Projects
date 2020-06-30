@@ -66,17 +66,15 @@ return flag;
 int main(){
 
 string text;
-cout<<"Geben Sie eine Zeile ein: ";
+cout<<"Introduce a new line: ";
 getline(cin,text);
 
-cout<< "Ohne Sonderzeichen "<<clean(text)<<"."<<endl;
+cout<< "Cleaned text: "<<clean(text)<<"."<<endl;
 string neu_text = clean(text);
-cout<<"Laenge: "<<neu_text.size()<<endl;
+cout<<"Length: "<<neu_text.size()<<endl;
 
 
 for (int i = 0;i<text.size();i++){
-
-
 
     swap(text[i],neu_text[i]);
 
@@ -90,16 +88,13 @@ for (int i = text.size()-1; i>=0 ;i--){
 }
 
 reverse(text);
-cout<<"Umgekehrte Reihenfolge: "<<text<<endl;
+cout<<"Reversed order: "<<text<<endl;
 cout<<"Palindrom? ";
 if (reverse(text))
-    cout<<"Ja.";
+    cout<<"Yes.";
 else{
-    cout<<"Nein.";
+    cout<<"No.";
 }
-
-
-
 
 
 
