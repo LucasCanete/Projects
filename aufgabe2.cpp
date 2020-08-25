@@ -43,7 +43,7 @@ cout<<"Ueberpruefung des datums..."<<endl;
 /*
 Bei der ersten for schleife schauen wir ob der eingegebene Monat im ersten Vektor drin ist.
 Wir iterieren durch die Monate. Wenn unsere bedingung erfüllt wird, wird "weiter"=0 und so vermeiden wir,
-dass die Bedingungen von der zweiten for-schleige erfüllt werden.
+dass die Bedingungen von der zweiten for-schleife erfüllt werden.
 */
 
 
