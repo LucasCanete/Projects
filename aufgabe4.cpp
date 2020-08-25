@@ -1,4 +1,7 @@
-/*Lucas Cañete Ramirez. Bearbaitet am 30. April, 2020*/
+/*Lucas Cañete Ramirez. Bearbaitet am 30. April, 2020.
+Converts any given year between year 1 and year 2100 to  
+roman year.
+*/
 
 #include <iostream>
 #include <vector>
