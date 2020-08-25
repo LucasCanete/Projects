@@ -1,4 +1,8 @@
-/*Bearbeitet am 16.04.2020 von Lucas Canete Ramirez*/
+/*Bearbeitet am 16.04.2020 von Lucas Canete Ramirez
+This program converts a given decimal number to its binary. 
+Also, you can decide to add or delete any 0 or 1 from the binary
+number and see what its decimal counterpart is.
+*/
 
 #include <iostream>
 #include <vector>
